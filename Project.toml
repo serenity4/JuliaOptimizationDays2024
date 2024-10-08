@@ -1,0 +1,13 @@
+name = "Demo1"
+uuid = "6051fc5f-ef4d-4e7a-b954-0b19584d33be"
+authors = ["Cédric BELMANT"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
