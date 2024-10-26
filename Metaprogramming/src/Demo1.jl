@@ -26,4 +26,4 @@ end
 
 export @myshow, @myshow_escaped, @myshow_correct
 
-end
+end # module
