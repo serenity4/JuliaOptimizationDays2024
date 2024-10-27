@@ -1,13 +1,15 @@
 name = "Demo2"
 uuid = "7051fc5f-ef4d-4e7a-b954-0b19584d33be"
-version = "0.1.0"
 authors = ["Cédric BELMANT"]
+version = "0.1.0"
 
 [deps]
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 [compat]
 Meshes = "0.52.1"
+PrecompileTools = "1.2.1"
 julia = "1.10"
 
 [extras]
