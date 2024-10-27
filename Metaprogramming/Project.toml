@@ -3,7 +3,18 @@ uuid = "6051fc5f-ef4d-4e7a-b954-0b19584d33be"
 authors = ["Cédric BELMANT"]
 version = "0.1.0"
 
+[sources]
+SPIRV = {url = "https://github.com/serenity4/SPIRV.jl", rev = "7a50454feba5ec4cfacebe9efe7fde9a38c7fce4"}
+
+[deps]
+SPIRV = "84138a67-b342-4d33-8200-33cfcca52eb2"
+Swizzles = "60694085-d904-4bfc-95dc-1e0e768e9359"
+SymbolicGA = "be1275fb-6550-422f-8b88-a5943ccecfb8"
+
 [compat]
+SPIRV = "0.6.4"
+Swizzles = "0.3.1"
+SymbolicGA = "0.2.2"
 julia = "1.10"
 
 [extras]

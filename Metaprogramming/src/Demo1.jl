@@ -1,29 +1,9 @@
 module Demo1
 
-macro myshow(ex)
-  println("Calling @myshow")
-  quote
-    x = $ex
-    println($(string(ex)), " = ", x)
-  end
-end
+include("naive.jl")
+include("escaped.jl")
+include("correct.jl")
 
-macro myshow_escaped(ex)
-  println("Calling @myshow_escaped")
-  esc(quote
-    x = $ex
-    println($(string(ex)), " = ", x)
-  end)
-end
-
-macro myshow_correct(ex)
-  println("Calling @myshow_correct")
-  quote
-    x = $(esc(ex))
-    println($(string(ex)), " = ", x)
-  end
-end
-
-export @myshow, @myshow_escaped, @myshow_correct
+export @show_naive, @show_escaped, @show_correct, @show_correct_verbose, @show_with_source, @show_replace_asin_with_acos
 
 end # module
