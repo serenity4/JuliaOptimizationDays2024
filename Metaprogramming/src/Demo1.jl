@@ -1,8 +1,8 @@
 module Demo1
 
-include("naive.jl")
-include("escaped.jl")
-include("correct.jl")
+include("impl1.jl")
+include("impl2.jl")
+include("impl3.jl")
 
 export @show_naive, @show_escaped, @show_correct
 

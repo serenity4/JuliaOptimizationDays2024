@@ -6,10 +6,18 @@ version = "0.1.0"
 [deps]
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+ProfileView = "c46f51b8-102a-5cf2-8d2c-8597cb0e0da7"
+SnoopCompile = "aa65fe97-06da-5843-b5b1-d5d13cad87d2"
+SnoopCompileCore = "e2b509da-e806-4183-be48-004708413034"
+StyledStrings = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
 
 [compat]
 Meshes = "0.52.1"
 PrecompileTools = "1.2.1"
+ProfileView = "1.8.0"
+SnoopCompile = "3.0.1"
+SnoopCompileCore = "3.0.0"
+StyledStrings = "1.11.0"
 julia = "1.10"
 
 [extras]
